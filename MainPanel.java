@@ -33,8 +33,20 @@ public class MainPanel extends JPanel {
 
     private int convertToInt(int x) {
 
-        return x;
+	/*int c = 0;
+	String padding = "0";
+	while (c < _r) {
+	    String l = new String("0");
+	    padding += l;
+	    c++;
+	}
+	
+	String n = padding + String.valueOf(x);
+	int q = Integer.parseInt(n);
+	return q;*/
+    	return x;
     }
+
     
     private int getNumNeighbors(int x, int y) {
 	int size = _size;
