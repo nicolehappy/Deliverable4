@@ -32,17 +32,8 @@ public class MainPanel extends JPanel {
     }
 
     private int convertToInt(int x) {
-	int c = 0;
-	String padding = "0";
-	while (c < _r) {
-	    String l = new String("0");
-	    padding += l;
-	    c++;
-	}
-	
-	String n = padding + String.valueOf(x);
-	int q = Integer.parseInt(n);
-	return q;
+
+        return x;
     }
     
     private int getNumNeighbors(int x, int y) {
@@ -223,15 +214,6 @@ public class MainPanel extends JPanel {
 	_running = true;
 	while (_running) {
 	    System.out.println("Running...");
-	    int origR = _r;
-	    try {
-		Thread.sleep(20);
-	    } catch (InterruptedException iex) { }
-	    for (int j=0; j < _maxCount; j++) {
-	    	_r += (j % _size) % _maxCount;
-		_r += _maxCount;
-	    }
-	    _r = origR;
 	    backup();
 	    calculateNextIteration();
 	}
