@@ -34,13 +34,12 @@ public class Cell extends JButton {
 	String text = getText();
 	return (text.equals("X"));
     }
-
     public String toString() {
-	String toReturn = new String("");
-	String currentState = getText();
-	for (int j = 0; j < _maxSize; j++) {
-	    toReturn += currentState;
-	}
+	String toReturn = getText();
+	//String currentState = getText();
+	//for (int j = 0; j < _maxSize; j++) {
+	  //  toReturn += currentState;
+	//}
 	if (toReturn.substring(0,1).equals("X")) {
 	    return toReturn.substring(0,1);
 	} else {
@@ -48,6 +47,7 @@ public class Cell extends JButton {
 	}
 
     }
+
     
     public void setAlive(boolean a) {
 	// note that "if (a)" and "if (a == true)"
