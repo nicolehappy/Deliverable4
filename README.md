@@ -18,3 +18,6 @@ Before:
 	
 
 * MainPanel.java -- convertToInt()
+
+After: 
+<img src = "after.png">
