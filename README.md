@@ -1,7 +1,7 @@
 # Deliverable4 
 Refactoring Conway's Game of Life.  Yue Li (yul134)
 
-* Before: 
+Before: 
 
 <img src = "before.png">
 
@@ -20,6 +20,4 @@ Refactoring Conway's Game of Life.  Yue Li (yul134)
 
 * MainPanel.java -- convertToInt()
 
-* After: 
-
-<img src = "after.png">
+After: 
