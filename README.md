@@ -1,2 +1,2 @@
-# Deliverable4 SlowLifeGUI
+# Deliverable4 Yue Li (yul134)
 Refactoring Conway's Game of Life.
