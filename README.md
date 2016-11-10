@@ -1,3 +1,2 @@
-Deliverable4 Refactoring Conway's Game of Life simulation
-
-Yue Li (yul134)
+# SlowLifeGUI
+Conway's Game of Life, in GUI Form.  Deliberately non-performant.
