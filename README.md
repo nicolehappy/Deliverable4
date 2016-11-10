@@ -5,4 +5,4 @@ Before:
 <img src = "before.png">
 
 1. MainPanel.java -- runContinuous()
-Manual Test must be used here because runContinuous do not have return value.
+There is no return value in the method, so we have to use maual test.
